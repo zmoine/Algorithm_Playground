@@ -1,7 +1,7 @@
 #ifndef BUBBLESORT_H
 #define BUBBLESORT_H
 
-#include "../sortingAlgorithm.h"
+#include "../Sorting/sortingAlgorithm.h"
 
 //BubbleUp class inherits from SortingAlgorithm abstract class
 class BubbleUp : public SortingAlgorithm{
