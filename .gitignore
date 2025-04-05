@@ -3,6 +3,10 @@ cmake-build-debug/
 build/
 out/
 
+# Ignore CMakeLists.txt user-specific files
+CMakeLists.txt.user
+CMakeLists.txt.cmake
+
 # Ignore IDE-specific files
 .idea/
 .vscode/
@@ -36,3 +40,4 @@ Thumbs.db
 # Ignore JetBrains Scratches and Consoles
 .idea/*
 .idea/*/scratch*
+.idea/*/console*
