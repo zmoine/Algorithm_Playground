@@ -1,0 +1,38 @@
+# Ignore build directories
+cmake-build-debug/
+build/
+out/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore external libraries
+ExternalLibraries/
+
+# Ignore CMake cache files
+CMakeCache.txt
+CMakeFiles/
+
+# Ignore object and executable files
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore debug files
+*.dSYM
+
+# Ignore JetBrains Scratches and Consoles
+.idea/*
+.idea/*/scratch*
