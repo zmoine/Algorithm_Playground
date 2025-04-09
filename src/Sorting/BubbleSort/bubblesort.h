@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../sorting_algorithm.h"
+#include "../sortingalgorithm.h"
 
 //BubbleUp class inherits from SortingAlgorithm abstract class
 class BubbleUp : public SortingAlgorithm{

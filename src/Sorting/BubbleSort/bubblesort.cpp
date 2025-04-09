@@ -1,4 +1,4 @@
-#include "bubble_sort.h"
+#include "bubblesort.h"
 
 //Bubble Sort Ascending Implementation
 void BubbleUp::sort(int arr[], int n){

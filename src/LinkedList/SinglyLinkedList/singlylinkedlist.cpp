@@ -1,6 +1,6 @@
-#include "singly_linkedlist.h"
-#include <iostream>
+#include "singlylinkedlist.h"
 #include "node.h"
+#include <iostream>
 using namespace std;
 
 //Constructor Implementation
@@ -70,6 +70,10 @@ int SinglyLinkedList::removeLast() {
 
 //Singly print Implementation
 void SinglyLinkedList::print() {
+    if (!head) {    //Check if list is empty
+        cout << "List is empty" << endl;
+        return;
+    }
     node* curr = head;
     while (curr) {
         if (curr->next == nullptr) {     //Check if it's the last node
