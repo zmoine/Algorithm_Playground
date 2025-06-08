@@ -1,4 +1,4 @@
-# Algorithm Playground
+## Algorithm Playground
 
 A collection of algorithms I’ve learned and implemented so far. It’s a simple space where I’m documenting the different algorithms and concepts I’ve explored during my programming journey.
 
