@@ -212,10 +212,12 @@ class RedBlackTree {
 
 public:
     RedBlackTree(){
-        root = nullptr;
-        NIL = nullptr;
-        size = 0;
         NIL = new node();
+        NIL->color = BLACK;
+        NIL->parent = NIL;
+        NIL->left = NIL;
+        NIL->right = NIL;
+        size = 0;
         root = NIL;
     }
 
@@ -274,9 +276,7 @@ public:
             x = y->right;
 
             if (y->parent == z) {
-                if (x != NIL) {
-                     x->parent = y;
-                 }
+                x->parent = y;
             } else {
                 transplant(y, y->right);
                 y->right = z->right;

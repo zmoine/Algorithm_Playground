@@ -12,25 +12,25 @@ int main() {
         switch (op) {
             case 'i':
                 cin >> num;
-            tree->insert(num);
-            break;
+                tree->insert(num);
+                break;
             case 's':
                 cin >> num;
-            tree->search(num);
-            break;
+                tree->search(num);
+                break;
             case 'd':
                 cin >> num;
-            tree->remove(num);
-            break;
+                tree->remove(num);
+                break;
             case 'r':
                 tree->getRoot();
-            break;
+                break;
             case 'p':
                 tree->print();
-            break;
+                break;
             case 'x':
                 cout << "Exiting";
-            break;
+                break;
             default:
                 cout << "Invalid operation";
         }
