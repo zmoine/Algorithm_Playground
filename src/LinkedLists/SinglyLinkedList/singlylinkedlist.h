@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../linkedlistalgorithm.h"
+#include "../linkedlist.h"
 #include "node.h"
 
 //SinglyLinkedList class inherits from LinkedListAlgorithm abstract class

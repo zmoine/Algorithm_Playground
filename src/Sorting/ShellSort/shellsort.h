@@ -1,5 +1,5 @@
 #pragma once
-#include "../sort.h"
+#include "../sorting.h"
 
 class ShellSort : public Sort{
 public:

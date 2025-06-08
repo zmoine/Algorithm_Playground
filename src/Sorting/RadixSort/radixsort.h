@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../sort.h"
+#include "../sorting.h"
 
 class RadixSort : public Sort{
 public:

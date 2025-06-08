@@ -1,5 +1,5 @@
 #pragma once
-#include "../sort.h"
+#include "../sorting.h"
 
 class BubbleSort : public Sort{
 public:
