@@ -8,12 +8,13 @@ class DoublyLinkedList : LinkedListAlgorithm {
     node* head;
     node* tail;
 public:
-    DoublyLinkedList();                                       //Constructor
-    void addBetween(node* succ, node* pred, int element);     //Implements addBetween method
-    int removeBetween(node* succ, node* pred, node* n);       //Implements removeBetween method
-    void addFirst(int element);                               //Implements addFirst method
-    void addLast(int element);                                //Implements addLast method
-    int removeFirst();                                        //Implements removeFirst method
-    int removeLast();                                         //Implements removeLast method
-    void print();                                             //Implements print method
+    DoublyLinkedList();                                                //Constructor
+    void addFirst(int element) override;                               //Implements addFirst method
+    void addLast(int element) override;                                //Implements addLast method
+    int removeFirst() override;                                        //Implements removeFirst method
+    int removeLast() override;                                         //Implements removeLast method
+    void print() override;                                             //Implements print method
+private:
+    static void addBetween(node* succ, node* pred, int element);     //Implements addBetween method
+    static int removeBetween(node* succ, node* pred, node* n);       //Implements removeBetween method
 };

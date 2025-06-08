@@ -7,11 +7,11 @@
 class SinglyLinkedList : public LinkedListAlgorithm{
     node* head;
 public:
-    SinglyLinkedList();             //Constructor
-    void addFirst(int element);     //Implements addFirst method
-    void addLast(int element);      //Implements addLast method
-    int removeFirst();              //Implements removeFirst method
-    int removeLast();               //Implements removeLast method
-    void print();                   //Implements print method
+    SinglyLinkedList();                      //Constructor
+    void addFirst(int element) override;     //Implements addFirst method
+    void addLast(int element) override;      //Implements addLast method
+    int removeFirst() override;              //Implements removeFirst method
+    int removeLast() override;               //Implements removeLast method
+    void print() override;                   //Implements print method
 };
 
